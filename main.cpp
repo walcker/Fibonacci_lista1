@@ -35,7 +35,7 @@ int main(){
     cin >> n; 
     cout << 1 << endl;      
 
-    for(i = 1; i < n;){
+    for(i = 1; i < (n - 3);){
       aux = i + x ;
       x = i;
       i = aux;
